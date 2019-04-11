@@ -1,0 +1,1726 @@
+@import
+	url(https://static.hometutorsite.com/content/css/landing-20aug2018.css)
+	;
+
+h2 {
+	font-size: 25px !important
+}
+
+@media only screen and (max-width:414px) {
+	.RegistraitionFreeStylePadding {
+		padding-left: 144px;
+		margin-top: -21px
+	}
+	h2 {
+		font-size: 19px !important
+	}
+}
+
+@media only screen and (max-width:375px) {
+	.RegistraitionFreeStylePadding {
+		padding-left: 110px;
+		margin-top: -21px
+	}
+	h2 {
+		font-size: 17px !important
+	}
+}
+
+@media only screen and (max-width:360px) {
+	.RegistraitionFreeStylePadding {
+		padding-left: 126px;
+		margin-top: -21px
+	}
+	h2 {
+		font-size: 14px !important
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.RegistraitionFreeStylePadding {
+		padding-left: 103px;
+		margin-top: -21px
+	}
+	h2 {
+		font-size: 14px !important
+	}
+}
+
+.find-user-type1 {
+	margin-top: 5px
+}
+
+.search-droupdown1 {
+	height: 51px;
+	background-color: #fff !important;
+	border-bottom: 1px solid #bc4e05 !important;
+	border-top: 1px solid #bc4e05 !important;
+	border-radius: 0 !important
+}
+
+.city-list-dd2 {
+	height: 50px;
+	background-color: #fff !important;
+	margin-top: -4px;
+	color: #000;
+	border-bottom: 1px solid #bc4e05;
+	border-top: 1px solid #bc4e05;
+	border-left: 1px solid #bc4e05
+}
+
+.main-image1 {
+	background: linear-gradient(to bottom, #f0f0f0 0, #f0f0f0 47%, #dedede 100%)
+}
+
+.page-views {
+	color: #f60
+}
+
+.page-views1 {
+	color: #365f7f;
+	font-size: 15px
+}
+
+.home-tutors {
+	color: #f60
+}
+
+.home-tutors1 {
+	color: #365f7f;
+	font-size: 15px
+}
+
+.tuition-jobs {
+	color: #f60
+}
+
+.tuition-jobs1 {
+	color: #365f7f;
+	font-size: 15px
+}
+
+.views {
+	margin-bottom: 30px
+}
+
+.advanced-search1, .common-logo-search-block1 {
+	text-align: left
+}
+
+#advanced-search-content .placeholder, .form-control.main-search-bar.placeholder
+	{
+	color: #676767;
+	font-weight: 100
+}
+
+.full-width-back {
+	background-color: #fff
+}
+
+.student-back, .tutor-back {
+	background-color: #f1f1f1;
+	border: 1px solid #FFF
+}
+
+.full-width {
+	min-height: 282px !important
+}
+
+.btn-blue {
+	background-color: #f60 !important
+}
+
+.btn-margin {
+	margin-top: 20px
+}
+
+.be-modules {
+	background: #dedede;
+	border-radius: 3px;
+	padding: 15px;
+	min-height: 65px;
+	width: 85%;
+	font-size: 14px;
+	margin: 40px auto;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease
+}
+
+#BE_flight_form_wrapper {
+	position: relative;
+	border-radius: 3px
+}
+
+.main_banner .journey-details {
+	width: 100%
+}
+
+.journey-details .pax-details {
+	background: #fff;
+	box-sizing: border-box;
+	color: #333;
+	float: left;
+	font-size: 1em;
+	padding: 17.3px 5px;
+	position: relative;
+	width: 25%;
+	cursor: pointer;
+	text-align: center;
+	border-right: 1px solid rgba(0, 0, 0, .1)
+}
+
+.be-flights .journey-details .pax-details {
+	padding: 3px 5px 5px
+}
+
+.ripple-parent {
+	overflow: hidden;
+	position: relative;
+	width: 12%;
+	float: left
+}
+
+.form-control-border {
+	border: 1px solid #e5e5e5 !important
+}
+
+.journey-details input {
+	background-color: #fff !important;
+	padding: 10px 5px;
+	color: #38404a;
+	padding: 12px 10px\9;
+	text-overflow: ellipsis;
+	width: 100%;
+	font-size: 1em;
+	border: 0
+}
+
+.journey-details .search-btn {
+	background-color: #f60 !important;
+	border-radius: 0 3px 3px 0;
+	margin-left: 0;
+	padding: 10px 25px;
+	min-height: 40px;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	appearance: button;
+	-moz-appearance: button;
+	-webkit-appearance: button;
+	font-weight: 100;
+	text-transform: uppercase
+}
+
+.bold, .but-style, .captionColor, .ccs, .contact-view-sty1,
+	.contact-view-sty2, .contactinfo-color, .offer-color, .pay-text-style,
+	.premiumTag, .public-profile-name-heading1,
+	.public-profile-sub-heading2, .rate-info, .rating-star-style,
+	.review-block-name, .review-block-title, .sample-header-style, .t-s-s,
+	.t-td-but-a-s, .t-td-h-s, .t-td-th-i-s, .text-muted, .thank-style,
+	.tuitionFieldValue, .txt-application, .validity, .validity-size-style,
+	ol.simple-list>li:before, p.premium-benefits, span.rating-count {
+	font-weight: 700
+}
+
+#mrcb {
+	display: none
+}
+
+@media only screen and (max-width:610px) {
+	.page-views {
+		font-size: 30px !important
+	}
+	.page-views1 {
+		font-size: 20px !important
+	}
+	.home-tutors, .tuition-jobs {
+		font-size: 30px !important
+	}
+	.home-tutors1, .tuition-jobs1 {
+		font-size: 20px !important
+	}
+	.journey-details .pax-details {
+		float: left;
+		width: 100%;
+		border-right: 1px solid #e5e5e5;
+		padding: 15px;
+		margin-top: 5px;
+		border-radius: 3px;
+		border-bottom: 1px solid rgba(0, 0, 0, .1)
+	}
+	.dropdown-menu1 {
+		width: 300px !important
+	}
+	.city-search {
+		width: 59% !important
+	}
+	.tuition-type {
+		width: 40% !important;
+		float: left
+	}
+	.ripple-parent, .search-type {
+		width: 100% !important
+	}
+	#mrcb {
+		display: block
+	}
+	#drcb {
+		display: none
+	}
+	.logo-home h1.logo-title {
+		font-size: 21px;
+		height: 44px;
+		left: auto;
+		top: -29px;
+		right: 25px;
+		width: 100%
+	}
+	img.home-logo-image {
+		margin: 0
+	}
+	.logo-home {
+		height: 40px
+	}
+	.logoCaption {
+		font-size: 10px !important
+	}
+	.be-modules {
+		width: 100%;
+		margin: 5px auto;
+		padding: 4px 9px
+	}
+	.home-tutors1, .page-views1, .tuition-jobs1 {
+		color: #365f7f;
+		font-size: 11px
+	}
+	.ripple-parent {
+		margin-top: 5px
+	}
+	.journey-details .search-btn {
+		padding: 6px 25px;
+		min-height: 30px
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.main_banner .journey-details .pax-details {
+		padding: 12px 8px
+	}
+	.ripple-parent {
+		width: 100% !important
+	}
+}
+
+@media only screen and (max-width:375px) {
+	.logo-home h1.logo-title {
+		font-size: 21px;
+		height: 44px;
+		left: auto;
+		top: -29px;
+		right: 8px;
+		width: 100%
+	}
+	.logoCaption {
+		font-size: 9px !important
+	}
+}
+
+.city-search {
+	width: 70%
+}
+
+.tuition-type {
+	width: 60%
+}
+
+.search-type {
+	width: 222%
+}
+
+.captionColor {
+	color: #084d75
+}
+
+.home-free-btn1 {
+	margin-bottom: 0 !important;
+	margin-top: -14px !important
+}
+
+.btn-border {
+	border-radius: 0 !important
+}
+
+.dropdown-menu1 {
+	width: 600px
+}
+
+.why-home-tuitions {
+	background-image:
+		url(https://static.hometutorsite.com/content/images/whyhometuitions2.png)
+}
+
+.why-home-tuitions-1 {
+	background-position: -14px -9px;
+	display: block;
+	width: 79px !important;
+	height: 73px !important
+}
+
+.why-home-tuitions-2 {
+	background-position: -100px 79px;
+	display: block;
+	width: 74px !important;
+	height: 74px !important
+}
+
+.why-home-tuitions-3, .why-home-tuitions-4, .why-home-tuitions-5,
+	.why-home-tuitions-6 {
+	display: block;
+	width: 80px !important;
+	height: 80px !important
+}
+
+.why-home-tuitions-3 {
+	background-position: -93px -6px
+}
+
+.why-home-tuitions-4 {
+	background-position: -11px -88px
+}
+
+.why-home-tuitions-5 {
+	background-position: -10px 85px
+}
+
+.why-home-tuitions-6 {
+	background-position: -94px -92px
+}
+
+.home-testimonial-block1 .user-pic1 {
+	width: 75px !important;
+	height: 68px !important
+}
+
+.how-it-works-1, .how-it-works-2, .how-it-works-3, .how-it-works-4 {
+	display: block;
+	width: 72px !important;
+	height: 69px !important
+}
+
+.how-it-works-1 {
+	background-position: 78px -3px
+}
+
+.how-it-works-2 {
+	background-position: 76px -65px
+}
+
+.how-it-works-3 {
+	background-position: 74px -126px
+}
+
+.how-it-works-4 {
+	background-position: 75px 65px
+}
+
+@media only screen and (max-width:486px) {
+	.how-it-works-1, .how-it-works-2, .how-it-works-3, .how-it-works-4,
+		.why-home-tuitions, .why-home-tuitions-1, .why-home-tuitions-2,
+		.why-home-tuitions-3, .why-home-tuitions-4, .why-home-tuitions-5,
+		.why-home-tuitions-6 {
+		display: inline
+	}
+	.home-testimonial-block1 .user-pic1 {
+		width: 75px !important;
+		height: 68px !important;
+		float: none !important;
+		display: inline
+	}
+}
+
+.search-type-border {
+	border: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	-webkit-transition: none !important
+}
+
+.form-control-front {
+	border: none !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none
+}
+
+.team-member {
+	height: 150px;
+	width: 150px
+}
+
+.team-member-bgc {
+	background-color: #fff
+}
+
+.carousel-control1 {
+	background: 0 0;
+	color: none;
+	border: none
+}
+
+.cbs {
+	box-shadow: 0 5px 20px -6px rgba(0, 0, 0, .75);
+	border: 2px solid #fff
+}
+
+.mrb {
+	margin-bottom: 30px
+}
+
+.bank-details-block, .cm, .paytm-margin {
+	margin-bottom: 10px
+}
+
+.item {
+	box-shadow: 0 0 31px -6px rgba(0, 0, 0, .75);
+	border: 1px solid #fff;
+	background: #4d9bc2
+}
+
+.card {
+	height: 100.5px;
+	overflow: hidden;
+	padding: 0 5px;
+	color: #fff
+}
+
+.bank-details-block {
+	border: 2px dashed #d6d6d6;
+	border-radius: 4px;
+	color: #c36306;
+	font-size: 16px;
+	line-height: 30px;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 7px 5px
+}
+
+.bank-icon-sbi {
+	background-image:
+		url(https://hometuitionsite.s3.amazonaws.com/bank_icons/bank_icon.jpg)
+}
+
+.bank-icon-icici {
+	background-image:
+		url(https://hometuitionsite.s3.amazonaws.com/bank_icons/icici.jpg)
+}
+
+.bank-icon {
+	background-repeat: no-repeat;
+	vertical-align: sub;
+	padding: 0 0 0 20px
+}
+
+.bank-detail-color {
+	color: #005ea5
+}
+
+ol.simple-list1 {
+	counter-reset: li-counter +3 !important
+}
+
+.cpadding {
+	padding-left: 30px
+}
+
+@media screen and (max-width:460px) and (min-width:320px) {
+	.validity {
+		color: #079011;
+		font-weight: 700;
+		font-size: 18px
+	}
+	.but-style {
+		margin-top: 0;
+		margin-left: 1px
+	}
+	.pricing-style {
+		margin-top: 14px
+	}
+}
+
+.but-style {
+	margin-top: 9px;
+	margin-left: 1px
+}
+
+.but-style1 {
+	border-radius: 5px 0 0 5px !important
+}
+
+#radioBtn .notActive {
+	background-color: #fff;
+	color: #58595a;
+	border-color: #8b8d8e
+}
+
+.offer-color {
+	color: #383833
+}
+
+.list-style {
+	list-style: none
+}
+
+.upgrade-row-bg {
+	background: #fff;
+	border: 1px solid #dcdcdc;
+	padding-bottom: 10px
+}
+
+.invoice-title h2, .invoice-title h3 {
+	display: inline-block !important
+}
+
+.table>tbody>tr>.no-line {
+	border-top: none !important
+}
+
+.body-ls {
+	letter-spacing: .5px !important;
+	background: #fff !important
+}
+
+.page {
+	width: 21cm !important;
+	height: 29.7cm !important
+}
+
+strong {
+	color: #063556 !important
+}
+
+.font-size {
+	font-size: 11px
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th,
+	.table>thead>tr>td, .table>thead>tr>th {
+	border-top: 0 !important
+}
+
+.table {
+	border: 1px solid #d5d5d5
+}
+
+.table>thead>tr>.no-line {
+	border-bottom: none
+}
+
+.table>tbody>tr>.thick-line {
+	border-top: 2px solid
+}
+
+address {
+	line-height: 2
+}
+
+.span-color {
+	color: #757575
+}
+
+.back-image-pos, .back-image-pos1, .back-image-pos1:hover,
+	.back-image-pos:hover {
+	color: rgba(100, 100, 100, 0)
+}
+
+.subscription-preview {
+	width: 100%
+}
+
+.subscription-details .checkout-block {
+	float: none;
+	text-align: center;
+	width: 100%
+}
+
+.subscription-details .promo-code-tag-block {
+	float: none;
+	vertical-align: none;
+	margin-bottom: 10px
+}
+
+.subscription-details .promo-code-block {
+	float: left
+}
+
+@media only screen and (max-width:767px) {
+	.subscription-details .checkout-block1 {
+		float: right;
+		text-align: center;
+		width: 100%
+	}
+	.paytm-margin {
+		margin-right: 0 !important
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.paytm-margin {
+		margin-bottom: 10px;
+		margin-right: 10px
+	}
+}
+
+.subscription-details .promo-code-tag-block {
+	width: auto !important
+}
+
+.subscription-details .checkout-block1 {
+	float: left;
+	text-align: center;
+	width: 100%
+}
+
+.back-image {
+	background:
+		url(https://hometuitionsite.s3.amazonaws.com/email-images/paytm1.png)
+}
+
+.back-image-pos {
+	background-position: -3px 33px;
+	padding: 4px 18px
+}
+
+.btn-our-style {
+	background-color: #fff;
+	border: 1px solid #b3d17b
+}
+
+.btn-our-style:hover {
+	background-color: #e1e4e4;
+	border: 1px solid #e1e4e4
+}
+
+@media only screen and (max-width:360px) {
+	.btn-group-msg .msg-content-block, .subscription-details .checkout-block .btn,
+		.subscription-details .promo-code-block .btn, .user-id-info {
+		width: auto
+	}
+}
+
+.paytm-margin {
+	margin-right: 0
+}
+
+.back-image1 {
+	background:
+		url(https://hometuitionsite.s3.amazonaws.com/email-images/paytm1.png)
+}
+
+.paytm-captcha {
+	background:
+		url(https://hometuitionsite.s3.amazonaws.com/email-images/captcha1.jpg)
+}
+
+.paytm-captcha-pos {
+	padding: 66px 75px
+}
+
+.back-image-pos1 {
+	background-position: 12px -3px;
+	padding: 5px 0
+}
+
+.btn-our-style1 {
+	background-color: #fff;
+	border: 1px solid #0dbbef
+}
+
+.btn-our-style1:hover {
+	background-color: #e1e4e4;
+	border: 1px solid #e1e4e4
+}
+
+.payment-fail-padding {
+	padding: 30px !important
+}
+
+.paymentFail-textalign {
+	text-align: right
+}
+
+@media only screen and (max-width:610px) {
+	.paymentFail-textalign {
+		text-align: center !important
+	}
+}
+
+.pfc {
+	color: #8c4b0b !important
+}
+
+.home-content-list p.premium-benefits:before {
+	background:
+		url(https://static.hometutorsite.com/content/images/common-lg/home-tuition-tution-tutor-common-sm.png)
+		-63px -131px no-repeat rgba(0, 0, 0, 0);
+	content: "";
+	margin: 7px 0 0 -25px;
+	height: 16px;
+	position: absolute;
+	vertical-align: middle;
+	width: 18px
+}
+
+p.premium-benefits {
+	color: #212121;
+	font-size: 16px;
+	padding-bottom: 13px
+}
+
+.premiumTag {
+	color: #25761c
+}
+
+.validity {
+	color: #079011;
+	font-size: 24px
+}
+
+.validity-style {
+	color: #32697e
+}
+
+.validity-size-style {
+	font-size: 20px;
+	color: #079011
+}
+
+.default-hide {
+	display: none
+}
+
+.grid-last-login-block1 {
+	display: inline-block;
+	float: left;
+	padding-right: 20px
+}
+
+.date1 {
+	text-align: left !important
+}
+
+span.stars1, span.stars1 span {
+	display: block;
+	background:
+		url(http://static.hometutorsite.com.s3.amazonaws.com/content/images/rating-stars.png)
+		0 -16px repeat-x;
+	width: 80px;
+	height: 16px
+}
+
+span.stars1 span {
+	background-position: 0 0
+}
+
+.user-sp .main-info .name-sm {
+	font-size: 10.5px;
+	color: #000
+}
+
+.user-sp .verification-info .verification-p {
+	font-size: 0;
+	padding-top: 5px
+}
+
+.price-sm-icon {
+	background-position: -64px -162px;
+	height: 16px;
+	width: 18px
+}
+
+.subscription-details, .subscription-details .promo-code-checkout {
+	background: #fff
+}
+
+.rate-info {
+	text-align: right;
+	padding-right: 2px
+}
+
+.rate-info, .text-muted {
+	color: #649502
+}
+
+.subscription-details .promo-code-block {
+	width: 50%
+}
+
+.logo-home-lp1 {
+	margin-top: 20px
+}
+
+.home-main-quote1 {
+	margin-bottom: 20px
+}
+
+@media only screen and (max-width:767px) {
+	.subscription-details .promo-code-block, .subscription-details .promo-code-tag-block,
+		.subscription-preview {
+		width: 100%
+	}
+}
+
+@media only screen and (max-width:769px) {
+	.student-back1 {
+		height: auto
+	}
+}
+
+.ccs {
+	background: #ffbf00;
+	border-radius: 10px;
+	padding: 5px;
+	color: #fff
+}
+
+div.stars {
+	width: 270px;
+	display: inline-block
+}
+
+input.star {
+	display: none
+}
+
+label.star {
+	float: right;
+	padding: 10px;
+	font-size: 36px;
+	color: #444;
+	transition: all .2s
+}
+
+input.star:checked ~label.star:before {
+	content: '\f005';
+	color: #FD4;
+	transition: all .25s
+}
+
+input.star-5:checked ~label.star:before {
+	color: #FE7;
+	text-shadow: 0 0 20px #952
+}
+
+input.star-1:checked ~label.star:before {
+	color: #F62
+}
+
+label.star:before {
+	content: '\f006';
+	font-family: FontAwesome
+}
+
+.student-bg-style {
+	background: #f1f1f1;
+	border: 1px solid #d6d6d6
+}
+
+.margin-bottom-sm1 {
+	text-align: center;
+	display: inline-block
+}
+
+.btn-primary1 {
+	color: #444;
+	background-color: #f1f1f1;
+	border-color: #f1f1f1;
+	padding: 10px 40px
+}
+
+.btn-primary.active, .btn-primary.focus, .btn-primary:active,
+	.btn-primary:focus, .open>.dropdown-toggle.btn-primary, btn-primary:hover
+	{
+	color: #fff;
+	background-color: #F60;
+	border-color: #F60
+}
+
+.btn-primary.active, .btn-primary.focus, .btn-primary:active,
+	.btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary
+	{
+	background-color: #f76e12;
+	border-color: #f76e12
+}
+
+.white-bg {
+	background: #fff
+}
+
+.logo-home-lp {
+	margin-top: -28px
+}
+
+.txt-application {
+	color: green;
+	font-family: sans-serif;
+	font-size: 18px
+}
+
+@media only screen and (max-width:766px) {
+	.logo-home-lp {
+		margin-top: 0
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.home-center-quote, .home-content-list, .home-testimonial-info,
+		.home-user-desc, .home-user-pic, .lp-body .arrow-hand, .step-bar,
+		.win-gift-btn {
+		display: inherit
+	}
+	.form-control-lp {
+		font-size: 15px !important
+	}
+}
+
+@media only screen and (max-width:991px) {
+	.common-logo-left, .home-content-list p, .msg-content, .msg-user, .muted,
+		.select-home-country-state.common-country-state-ddl {
+		text-align: justify
+	}
+	.home-content-list {
+		margin-bottom: 0
+	}
+	.container-wrapper-lp .home-hiw-main-heading.home-main-quote,
+		.full-width-lp, .lp-content {
+		margin-top: 20px
+	}
+}
+
+@media only screen and (max-width:360px) {
+	.hts-contact-top-block, .hts-whatsapp-top-block {
+		font-size: 14px
+	}
+}
+
+.hts-whatsapp-top-block {
+	float: left;
+	position: relative
+}
+
+.hts-contact-top-block {
+	float: right;
+	position: relative
+}
+
+.full-width-lp {
+	margin-top: 8px
+}
+
+@media only screen and (max-width:610px) {
+	.list-unstyled {
+		font-size: 10px
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.form-group-lp .label-left span, .lp-body .home-hiw-main-heading.home-main-quote>h2
+		{
+		font-size: 9px !important
+	}
+}
+
+@media only screen and (max-width:991px) {
+	.container-wrapper-lp .home-hiw-main-heading.home-main-quote,
+		.full-width-lp, .lp-content {
+		margin-top: 0
+	}
+}
+
+@media only screen and (max-width:414px) {
+	.logo-image-res-style {
+		float: left;
+		margin-left: 83px !important
+	}
+	.logo-image-res-style1 {
+		margin-top: -27px !important;
+		margin-left: 19px
+	}
+	.lp-body .logo-home {
+		height: 38px
+	}
+	.container-wrapper-lp .home-hiw-main-heading.home-main-quote,
+		.full-width-lp, .lp-content {
+		margin-top: 6px !important
+	}
+}
+
+@media only screen and (max-width:375px) {
+	.logo-image-res-style {
+		float: left;
+		margin-left: 63px !important
+	}
+	.logo-image-res-style1 {
+		margin-top: -27px !important;
+		margin-left: 19px
+	}
+	.lp-body .logo-home {
+		height: 38px
+	}
+	.container-wrapper-lp .home-hiw-main-heading.home-main-quote,
+		.full-width-lp, .lp-content {
+		margin-top: 6px !important
+	}
+}
+
+@media only screen and (max-width:360px) {
+	.logo-image-res-style {
+		float: left;
+		margin-left: 54px !important
+	}
+	.logo-image-res-style1 {
+		margin-top: -27px !important;
+		margin-left: 19px
+	}
+	.lp-body .logo-home {
+		height: 38px
+	}
+	.container-wrapper-lp .home-hiw-main-heading.home-main-quote,
+		.full-width-lp, .lp-content {
+		margin-top: 6px !important
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.logo-image-res-style {
+		float: left;
+		margin-left: 40px !important
+	}
+	.logo-image-res-style1 {
+		margin-top: -27px !important;
+		margin-left: 19px
+	}
+	.lp-body .logo-home {
+		height: 38px
+	}
+}
+
+#subject-lp, #tutors-info-lp, #tutors-testimonials-lp {
+	display: block
+}
+
+.public-profile-sub-heading2 {
+	color: #096392
+}
+
+.back1 {
+	margin-top: 10px
+}
+
+.public-profile-sub-heading1 {
+	color: #000
+}
+
+.profile-contact-info-block h2, .profile-contact-info-block h4 {
+	padding: 10px 3px 4px !important
+}
+
+.contact-view-sty {
+	display: block;
+	text-align: center;
+	height: 75px;
+	background-color: #0972a2;
+	border-radius: 9px
+}
+
+.contact-view-sty1 {
+	background-color: #f3f3f3;
+	border-radius: 0 0 15px 13px;
+	padding: 7px;
+	color: #3d7d9e;
+	text-align: center
+}
+
+.contact-view-sty2 {
+	display: block;
+	font-size: 20px;
+	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+
+@media only screen and (min-width:1024px) and (max-width:1100px) {
+	.contact-view-sty1 {
+		font-size: 10px
+	}
+}
+
+.contact-view-margin-style {
+	margin-bottom: 7px
+}
+
+.font-inc-style {
+	font-size: 20px
+}
+
+.font-inc-style1 {
+	font-size: 14px;
+	margin-top: 4px
+}
+
+.margin-left-right {
+	margin-left: 15px;
+	margin-right: 15px;
+	background-color: #fff
+}
+
+.sidebar-premium {
+	background-image:
+		url(https://hometuitionsite.s3.amazonaws.com/email-images/sidebar-premium2.png)
+}
+
+.sidebar-premium-image {
+	background-position: -372px 0;
+	height: 120px;
+	width: 185px;
+	display: inline-block
+}
+
+.sidebar-free-image {
+	background-position: -553px 0;
+	height: 120px;
+	width: 120px;
+	display: inline-block
+}
+
+.premium-text {
+	font-weight: 700;
+	color: #096392
+}
+
+ol.simple-list {
+	list-style-type: none;
+	margin: 0 0 0 20px;
+	padding: 0;
+	counter-reset: li-counter
+}
+
+ol.simple-list>li {
+	position: relative;
+	margin-bottom: 20px;
+	padding-left: .5em;
+	min-height: 20px;
+	border-left: 2px solid #CCC
+}
+
+ol.simple-list>li>p {
+	font-size: 12px
+}
+
+ol.simple-list>li:before {
+	position: absolute;
+	top: 0;
+	left: -1em;
+	width: .8em;
+	font-size: 30px;
+	line-height: 1;
+	text-align: right;
+	color: #464646;
+	content: counter(li-counter);
+	counter-increment: li-counter
+}
+
+.sample-header-style {
+	font-size: 16px
+}
+
+.review-block-name {
+	letter-spacing: 1px;
+	color: #50651a
+}
+
+.review-block-date {
+	color: #1e4a6d
+}
+
+.review-block-title {
+	color: #096392
+}
+
+.review-block-description {
+	text-align: justify
+}
+
+.profile-pic1 {
+	width: 60px;
+	height: 60px
+}
+
+.apply-tuition-style {
+	padding: 8px;
+	margin-top: 2px
+}
+
+.open-tag-lg {
+	background:
+		url(https://static.hometutorsite.com/content/images/home-tuition/open-lg.png)
+		no-repeat;
+	bottom: 10px;
+	display: block;
+	height: 54px;
+	left: 177px;
+	position: relative;
+	width: 50px
+}
+
+.open-tuition-details {
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	top: 21px;
+	width: 154px
+}
+
+.social-icon.f, .social-icon.g, .social-icon.in, .social-icon.p,
+	.social-icon.t {
+	height: 25px;
+	width: 25px
+}
+
+.featured-tag-lg1 {
+	left: -165px
+}
+
+.notice {
+	padding: 15px;
+	background-color: #fafafa;
+	border-left: 100px solid #7f7f84;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0 25px 52px 1px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 25px 52px 1px rgba(0, 0, 0, .2);
+	box-shadow: 0 25px 52px 1px rgba(0, 0, 0, .2);
+	border-image:
+		url(https://static.hometutorsite.com/content/images/home-tuition/cloud-hurry.png)
+		0 100% stretch;
+	-moz-border-image:
+		url(https://static.hometutorsite.com/content/images/home-tuition/cloud-hurry.png)
+		0 100% stretch;
+	-webkit-border-image:
+		url(https://static.hometutorsite.com/content/images/home-tuition/cloud-hurry.png)
+		0 100% stretch;
+	-o-border-image:
+		url(https://static.hometutorsite.com/content/images/home-tuition/cloud-hurry.png)
+		0 100% stretch
+}
+
+@media only screen and (max-width:991px) {
+	.featured-tag-lg1 {
+		bottom: 19px;
+		left: auto;
+		margin: 0 auto
+	}
+	.notice {
+		padding: 0
+	}
+}
+
+.notice-sm {
+	padding: 10px;
+	font-size: 80%
+}
+
+.notice-lg {
+	padding: 35px;
+	font-size: large
+}
+
+.notice-success {
+	border-color: #f60
+}
+
+.notice-success>strong {
+	color: #225f00;
+	letter-spacing: 1px;
+	font-size: 16px
+}
+
+.hiw-steps1 {
+	background:
+		url(https://static.hometutorsite.com/content/images/common-sm/orange-arrow2.gif)
+		left 7px no-repeat rgba(0, 0, 0, 0);
+	padding-left: 15px
+}
+
+.thank-style {
+	color: #376a85;
+	font-size: 18px
+}
+
+@media only screen and (max-width:610px) {
+	.t-td-h-s {
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 26px;
+		color: #225479;
+		font-family: Trebuchet MS, Gotham, 'Helvetica Neue', Helvetica, Arial,
+			sans-serif
+	}
+}
+
+.t-td-h-s, .t-td-tc1-s, .t-td-th-s {
+	line-height: 20px
+}
+
+.hand-gly-style {
+	color: #f60;
+	padding-right: 10px
+}
+
+.tuitionActionBlock, .tuitionInfoBlock {
+	background-color: #f0f8ff;
+	border-color: #eee #ddd #bbb;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+	min-height: 218px;
+	margin-bottom: 10px;
+	padding: 24px;
+	border-radius: 5px
+}
+
+.exclamation-sign-style {
+	color: #d60909
+}
+
+.social-icon.f:hover {
+	background-position: -29px -29px
+}
+
+.social-icon.f {
+	background-position: -29px -1px
+}
+
+.social-icon.g {
+	background-position: -29px -56px
+}
+
+.social-icon.g:hover {
+	background-position: -29px -83px
+}
+
+.social-icon.t {
+	background-position: -29px -110px
+}
+
+.social-icon.t:hover {
+	background-position: -28px -137px
+}
+
+.social-icon.p {
+	background-position: -1px -139px
+}
+
+.social-icon.p:hover {
+	background-position: 0 -168px
+}
+
+.social-icon.in {
+	background-position: -29px -164px
+}
+
+.social-icon.in:hover {
+	background-position: -29px -191px
+}
+
+a {
+	cursor: pointer;
+	cursor: hand
+}
+
+.tuitionInfoBlock {
+	margin-right: 8px
+}
+
+.tuitionActionBlock {
+	width: 49%
+}
+
+.tuitionHeaderRow {
+	font-size: 17px;
+	color: #747474
+}
+
+.tuitionDescriptionRow {
+	margin-top: 8px;
+	min-height: 80px;
+	background-color: #e9e9e9;
+	padding: 8px;
+	border-radius: 5px
+}
+
+.tuitionTitle {
+	padding-left: 8px
+}
+
+.tuitionFieldBlock {
+	padding-left: 0;
+	padding-top: 8px
+}
+
+.tuitionActionBoardRow {
+	margin-top: 12px
+}
+
+.tuitionActionBoardRowOdd {
+	background-color: #e9e9e9;
+	border-radius: 5px;
+	padding: 7px
+}
+
+.modal-450 {
+	width: 450px;
+	margin: 0 auto
+}
+
+.rating-star-style {
+	color: #f60
+}
+
+.font-style {
+	font-size: 15px !important
+}
+
+table {
+	width: 100%
+}
+
+.t-s {
+	background: #f1f1f1;
+	border: 1px solid #cacaca
+}
+
+.t-td-b-s, .t-td-s {
+	background-color: #fff
+}
+
+.t-td-s {
+	padding: 20px
+}
+
+.t-td-h-s {
+	font-size: 22px;
+	color: #225479;
+	font-family: open sans, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.t-td-b-s {
+	border: 1px solid #e9e9e9
+}
+
+.t-td-b-b-s {
+	border-bottom: 1px solid #e9e9e9
+}
+
+.t-td-i-s {
+	border-right: 1px solid #e9e9e9;
+	padding: 10px
+}
+
+.t-td-th-s {
+	font-size: 18px;
+	color: #0D9AE7;
+	font-family: Arial, sans-serif, Gotham, 'Helvetica Neue', Helvetica
+}
+
+.t-td-but-s, .t-td-tc1-s {
+	font-family: open sans, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+.t-td-th-i-s {
+	text-decoration: none;
+	color: #577b0d
+}
+
+.t-td-tc1-s {
+	font-size: 14px;
+	color: #222
+}
+
+.t-td-s-s {
+	color: #454444
+}
+
+.t-s-s {
+	font-size: 18px;
+	color: #055880
+}
+
+.t-td-but-s {
+	background-color: #f60;
+	height: auto;
+	text-align: center;
+	padding: 8px 2px;
+	font-size: 15px;
+	display: block
+}
+
+.t-td-but-a-s {
+	font-size: 16px;
+	text-decoration: none;
+	color: #fff;
+	display: block
+}
+
+.form-group-lp .label-left span, .lp-lead, ul.list-sp li {
+	font-size: 14px
+}
+
+.public-profile-name-heading2 {
+	font-size: 15px;
+	color: #454444
+}
+
+.back1 {
+	text-align: right !important
+}
+
+.public-profile-name-heading1 {
+	color: #096392
+}
+
+.back2 {
+	text-align: right
+}
+
+.no-rating, .rated-by, .review-block-date {
+	text-align: center
+}
+
+.sidebarsignup1-style {
+	background-color: #f1f1f1;
+	text-align: center;
+	border: 2px solid #cecece;
+	margin-top: 0
+}
+
+.tuition-font {
+	font-size: 16px
+}
+
+.contactinfo-note {
+	font-size: 11px
+}
+
+.contactinfo-color {
+	color: #f60
+}
+
+.star-l-s {
+	letter-spacing: 2px;
+	font-size: 20px
+}
+
+.img-rated-by {
+	width: 80px;
+	height: 80px
+}
+
+.no-rating {
+	padding-bottom: 10px
+}
+
+.public-profile-rating {
+	clear: both;
+	display: block;
+	padding: 3px 0 30px
+}
+
+span.stars, span.stars span {
+	display: block;
+	background:
+		url(http://static.hometutorsite.com.s3.amazonaws.com/content/images/RatingStars.jpg)
+		0 -23px repeat-x;
+	width: 120px;
+	height: 23px
+}
+
+span.stars span {
+	background-position: 0 0
+}
+
+.btn-grey {
+	background-color: #D8D8D8;
+	color: #FFF
+}
+
+.rating-block {
+	background-color: #FAFAFA;
+	border: 1px solid #EFEFEF;
+	padding: 15px 15px 20px;
+	border-radius: 3px
+}
+
+.padding-bottom-7 {
+	padding-bottom: 7px
+}
+
+.review-block {
+	padding: 15px;
+	border-radius: 3px;
+	margin-bottom: 15px
+}
+
+.review-block-name {
+	font-size: 15px;
+	margin: 10px 0
+}
+
+.review-block-date {
+	font-size: 12px;
+	letter-spacing: 1px
+}
+
+.review-block-rate {
+	font-size: 13px;
+	margin-bottom: 15px
+}
+
+.review-block-title {
+	font-size: 15px;
+	margin-bottom: 10px
+}
+
+.review-block-description {
+	font-size: 13px;
+	letter-spacing: 1px
+}
+
+.btn-orage {
+	color: #fff;
+	background-color: #f60;
+	border-color: #f60
+}
+
+.toggle.btn {
+	min-width: 54px !important;
+	min-height: 30px !important
+}
+
+.tuitionviews {
+	color: #00802d !important;
+	font-size: 16px !important
+}
+
+.applicationviews {
+	color: #e6540e !important;
+	font-size: 18px !important;
+	font-family: fantasy !important
+}
+
+.full-width-unsubscribe h1 {
+	color: #dd3314
+}

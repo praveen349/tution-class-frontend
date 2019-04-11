@@ -1,0 +1,126 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd      
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd      
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<context:annotation-config />
+	<mvc:annotation-driven /> 
+	<mvc:resources mapping="/resources/**" location="/theme/" />
+	
+	
+	<context:component-scan base-package="com.tution.bureau.*" />
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**" />
+			<mvc:exclude-mapping path="/resources/**" />
+			<mvc:exclude-mapping path="/player/**" />
+			<mvc:exclude-mapping path="/contact/**" />
+			<mvc:exclude-mapping path="/social/**" />
+			<mvc:exclude-mapping path="/membership" />
+			<mvc:exclude-mapping path="/about-us" />
+			<mvc:exclude-mapping path="/game-faq" />
+			<mvc:exclude-mapping path="/general-faq" />
+			<mvc:exclude-mapping path="/disclaimer" /> 
+			<mvc:exclude-mapping path="/promotion/**" />
+			<mvc:exclude-mapping path="/coupon/**" />
+			<mvc:exclude-mapping path="/appstore" /> 
+			<mvc:exclude-mapping path="/sitemap" /> 
+			<mvc:exclude-mapping path="/msiteTest" /> 
+			<mvc:exclude-mapping path="/Glossary" />
+			<mvc:exclude-mapping path="/privacy-policy" />
+			<mvc:exclude-mapping path="/generate-secure-pin" />
+			<mvc:exclude-mapping path="/robots.txt" />
+			<mvc:exclude-mapping path="/responsible-gaming" />
+			<mvc:exclude-mapping path="/terms-condition" />
+			<mvc:exclude-mapping path="/holdem-poker-hand-tips" />
+			<mvc:exclude-mapping path="/holdem-poker-hand" />
+			<mvc:exclude-mapping path="/secured-environment" />
+			<mvc:exclude-mapping path="/rules-of-play" />
+			<mvc:exclude-mapping path="/grievance-redressal" />
+			<mvc:exclude-mapping path="/invite-your-friend-terms-condition" />
+			<mvc:exclude-mapping path="/disconnection-cancellation-policy" />
+			<mvc:exclude-mapping path="/legal-policy" />
+			<mvc:exclude-mapping path="/payment-process" />
+			<mvc:exclude-mapping path="/blog/**" />
+			<mvc:exclude-mapping path="/blogs/**" />
+			<mvc:exclude-mapping path="/image/list" />
+			<mvc:exclude-mapping path="/contact-us" />
+			<mvc:exclude-mapping path="/payment/**" />
+			<mvc:exclude-mapping path="/error/**" />
+			<mvc:exclude-mapping path="/ajx/api/**" />
+			<mvc:exclude-mapping path="/create/session/**" />
+			<mvc:exclude-mapping path="/logout/**" />
+			<mvc:exclude-mapping path="/home/**" />
+			<mvc:exclude-mapping path="/reset_password/**" />
+			<mvc:exclude-mapping path="/verify_email/**" />
+			<mvc:exclude-mapping path="/generate-secure-pin/**" />
+			<mvc:exclude-mapping path="/tournaments/**" />
+			<mvc:exclude-mapping path="/lobby/**" />
+			<mvc:exclude-mapping path="/tournament/**" />
+			<mvc:exclude-mapping path="/pokermantra/**" />
+			<mvc:exclude-mapping path="/loginErrorByGoogle" />
+			<mvc:exclude-mapping path="/loginErrorBySocialSignup/**" />
+			<mvc:exclude-mapping path="/pay/mobile/**" />
+			<mvc:exclude-mapping path="/pay/popup/mobile/**" />
+			<mvc:exclude-mapping path="/payment/redirect/**" />
+			<mvc:exclude-mapping path="/pay/popup/redirect/mobile/**" />
+			<mvc:exclude-mapping path="/forum/list/**" />
+			<mvc:exclude-mapping path="/get/vote/question/**" />
+			<mvc:exclude-mapping path="/forum/getMostPopular/**" />
+			<mvc:exclude-mapping path="/forum/getRecentAnswer/**" />
+			<mvc:exclude-mapping path="/getIllustrationPdf/**" />
+			<mvc:exclude-mapping path="/testimonial/list/**" />
+			<mvc:exclude-mapping path="/category/list/**" />
+			<mvc:exclude-mapping path="/ipRestricted/**" />
+			<mvc:exclude-mapping path="/verified/**" />
+			
+			<bean class="com.tution.bureau.interceptor.SessionInterceptor" />
+		</mvc:interceptor>
+
+		
+
+
+		<bean class="org.springframework.web.servlet.mvc.WebContentInterceptor"
+			p:cacheSeconds="0" p:alwaysUseFullPath="true">
+			<property name="cacheMappings">
+				<props>
+					<!-- cache for one month -->
+					<!-- <prop key="/cache/me/**">2592000</prop> -->
+					<prop key="/cache/me/**">3153600</prop>
+					<!-- don't set cache headers -->
+					<prop key="/cache/agnostic/**">-1</prop>
+				</props>
+			</property>
+		</bean>
+	</mvc:interceptors>
+
+	<mvc:resources mapping="/images/**" location="file:/Users/mac10/" />
+
+	<bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+		<!--Don't add suffix or prefix like you do with .jsp files -->
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.tiles3.TilesView" />
+		<property name="redirectHttp10Compatible" value="false" />
+	</bean>
+
+	<bean id="tilesConfigurer"
+		class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
+		<property name="definitions">
+			<value>/WEB-INF/tiles.xml</value>
+		</property>
+	</bean>
+
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+
+		<!-- setting maximum upload size -->
+		<property name="maxUploadSize" value="10000000" />
+	</bean>
+
+</beans>

@@ -1,0 +1,803 @@
+.form-horizontal .control-label {
+	width: auto !important;
+	float: none !important
+}
+
+.radio-block-fullwidth .form-control div {
+	padding: 4px
+}
+
+.radio-block-fullwidth1 .form-control div {
+	width: auto !important;
+	padding: 2px;
+	margin-bottom: 0
+}
+
+.logo-home-lp {
+	margin-top: -28px
+}
+
+.home-content-list p.premium-benefits:before {
+	background:
+		url(https://static.hometutorsite.com/content/images/common-lg/home-tuition-tution-tutor-common-sm.png)
+		-63px -131px no-repeat rgba(0, 0, 0, 0);
+	content: "";
+	margin: 7px 0 0 -25px;
+	height: 16px;
+	position: absolute;
+	vertical-align: middle;
+	width: 18px
+}
+
+p.premium-benefits {
+	color: #212121;
+	font-weight: 700;
+	font-size: 16px;
+	padding-bottom: 13px
+}
+
+@media only screen and (max-width:766px) {
+	.logo-home-lp {
+		margin-top: 0
+	}
+}
+
+.crop-action, .imageBox, .input-browse {
+	width: 100% !important
+}
+
+@media only screen and (max-width:480px) {
+	.home-center-quote, .home-content-list, .home-testimonial-info,
+		.home-user-desc, .home-user-pic, .lp-body .arrow-hand, .step-bar,
+		.win-gift-btn {
+		display: inherit
+	}
+	.form-control-lp {
+		font-size: 15px !important
+	}
+}
+
+@media only screen and (max-width:991px) {
+	.common-logo-left, .home-content-list p, .msg-content, .msg-user, .muted,
+		.select-home-country-state.common-country-state-ddl {
+		text-align: justify
+	}
+	.home-content-list {
+		margin-bottom: 0
+	}
+	.container-wrapper-lp .home-hiw-main-heading.home-main-quote,
+		.full-width-lp, .lp-content {
+		margin-top: 20px
+	}
+}
+
+@media only screen and (max-width:360px) {
+	.hts-contact-top-block, .hts-whatsapp-top-block {
+		font-size: 14px
+	}
+}
+
+.hts-whatsapp-top-block {
+	float: left;
+	position: relative
+}
+
+.hts-contact-top-block {
+	float: right;
+	position: relative
+}
+
+.full-width-lp {
+	margin-top: 8px
+}
+
+.lp-lead1 {
+	color: #54780c;
+	font-size: 20px;
+	background: #FFF;
+	padding: 10PX;
+	font-weight: 700
+}
+
+.ckb>input, .rad>input {
+	visibility: hidden;
+	position: absolute
+}
+
+.ckb>i, .rad>i {
+	display: inline-block;
+	vertical-align: middle;
+	width: 18.5px;
+	height: 18.5px;
+	border-radius: 50%;
+	transition: .2s;
+	box-shadow: inset 0 0 0 8px #fff;
+	border: 1px solid gray;
+	background: gray
+}
+
+.rad:hover>i {
+	box-shadow: inset 0 0 0 3px #fff;
+	background: gray
+}
+
+.rad>input:checked+i {
+	box-shadow: inset 0 0 0 3px #fff;
+	background: #f7590c
+}
+
+label {
+	font-weight: 700 !important
+}
+
+.form-control-lp {
+	font-size: 20px;
+	color: #616060
+}
+
+@media only screen and (max-width:414px) {
+	h2 {
+		font-size: 14px !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important
+	}
+}
+
+@media only screen and (max-width:375px) {
+	h2 {
+		font-size: 12px !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important
+	}
+}
+
+@media only screen and (max-width:360px) {
+	h2 {
+		font-size: 11px !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important
+	}
+}
+
+@media only screen and (max-width:320px) {
+	h2 {
+		font-size: 10px !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.form-group-lp .label-left span, .lp-body .home-hiw-main-heading.home-main-quote>h2
+		{
+		font-size: 9px
+	}
+	.h2, h2 {
+		font-size: 16px;
+		margin-top: 5px
+	}
+}
+
+@media only screen and (max-width:991px) {
+	.container-wrapper-lp .home-hiw-main-heading.home-main-quote {
+		margin-top: 0
+	}
+}
+
+@media only screen and (max-width:360px) {
+	.h2, h2 {
+		font-size: 14px
+	}
+}
+
+.LadningFormTitle {
+	text-align: center;
+	color: #f60;
+	font-weight: 700;
+	font-size: 22px
+}
+
+@media only screen and (max-width:1024px) {
+	.LadningFormTitle {
+		text-align: center;
+		color: #f60;
+		font-weight: 700;
+		font-size: 22px !important;
+		padding-right: 40px !important
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.LadningFormTitle {
+		float: right;
+		color: #084d75;
+		font-weight: 700;
+		font-size: 28px;
+		padding-right: 158px
+	}
+	.arrow-hand {
+		left: -17px;
+		position: absolute;
+		top: -29px
+	}
+}
+
+@media only screen and (max-width:414px) {
+	.LadningFormTitle {
+		float: right;
+		color: #084d75;
+		font-weight: 700;
+		font-size: 22px !important;
+		padding-right: 40px !important
+	}
+}
+
+@media only screen and (max-width:375px) {
+	.LadningFormTitle {
+		float: right;
+		color: #084d75;
+		font-weight: 700;
+		font-size: 22px !important;
+		padding-right: 40px !important
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.LadningFormTitle {
+		float: right;
+		color: #084d75;
+		font-weight: 700;
+		font-size: 21px !important;
+		padding-right: 12px !important
+	}
+}
+
+.lp-form .get-in-touch {
+	margin-top: 16px
+}
+
+.RegistrationFreeStyle {
+	BORDER-RADIUS: 0PX 0PX 15PX 15PX;
+	color: #fff;
+	background-color: #034d6f;
+	border: 0 solid #284e69;
+	width: 145px;
+	height: 25px
+}
+
+.MarginTopStyle {
+	margin-top: -5px
+}
+
+.RegistraitionFreeStylePadding {
+	padding-left: 253px;
+	margin-top: -20px
+}
+
+@media only screen and (max-width:1024px) {
+	.RegistraitionFreeStylePadding {
+		padding-left: 163px;
+		margin-top: -20px
+	}
+	.form-control-lp {
+		font-size: 17px !important
+	}
+}
+
+@media only screen and (max-width:960px) {
+	.RegistraitionFreeStylePadding {
+		padding-left: 466px;
+		margin-top: -20px
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.RegistraitionFreeStylePadding {
+		padding-left: 434px;
+		margin-top: -20px
+	}
+}
+
+@media only screen and (max-width:414px) {
+	.RegistraitionFreeStylePadding {
+		padding-left: 191px;
+		margin-top: -20px
+	}
+}
+
+@media only screen and (max-width:384px) {
+	.RegistraitionFreeStylePadding {
+		padding-left: 151px;
+		margin-top: -20px
+	}
+}
+
+@media only screen and (max-width:375px) {
+	.RegistraitionFreeStylePadding {
+		padding-left: 151px;
+		margin-top: -20px
+	}
+}
+
+@media only screen and (max-width:360px) {
+	.RegistraitionFreeStylePadding {
+		padding-left: 139px;
+		margin-top: -20px
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.RegistraitionFreeStylePadding {
+		padding-left: 100px;
+		margin-top: -20px
+	}
+}
+
+.student-testimonial {
+	width: 70px;
+	height: 70px;
+	background-position: -10px -10px;
+	border: 2px solid #fff
+}
+
+.student-testimonial-sagar {
+	background-position: -100px -100px;
+	border: 2px solid #fff
+}
+
+.student-testimonial-munni {
+	background-position: -100px -10px;
+	border: 2px solid #fff
+}
+
+.tutor-testimonial-bhavani {
+	background-position: -10px -100px;
+	border: 2px solid #fff
+}
+
+.tutor-testimonial-trinath {
+	background-position: -190px -10px;
+	border: 2px solid #fff
+}
+
+.tutor-testimonial-chiru {
+	background-position: -190px -100px;
+	border: 2px solid #fff
+}
+
+.common-testimonial {
+	background-image:
+		url(https://hometuitionsite.s3.amazonaws.com/email-images/TestimonialForTutorsandStudents.png)
+}
+
+.form-control {
+	color: #084d75;
+	font-weight: 700
+}
+
+.btn-light-blue {
+	font-weight: 700;
+	background-color: #60D6FB
+}
+
+.lp-form {
+	background: #f1f1f1;
+	border: 5px solid #034d6f;
+	border-radius: 5px;
+	padding: 20px
+}
+
+.studentStyle, .tutorStyle {
+	border-bottom: 1px dotted #034d6f;
+	border-top: 1px dotted #034d6f;
+	background-color: #fff
+}
+
+@media only screen and (min-width:320px) and (max-width:500px) {
+	.form-control-lp {
+		font-size: 12px !important
+	}
+}
+
+.studentStyle {
+	border-left: 1px dotted #034d6f;
+	padding: 3px 0 6px 6px
+}
+
+.tutorStyle {
+	border-right: 1px dotted #034d6f;
+	padding: 3px 6px 6px 0
+}
+
+.btn-primary, .btn-primary.focus, .btn-primary:focus, .btn-primary:hover,
+	.open>.dropdown-toggle.btn-primary {
+	background-color: #a09f9f !important;
+	border-color: #a09f9f !important
+}
+
+.home-common-images-sprite1 {
+	background-image:
+		url(https://static.hometutorsite.com/content/images/testimonials/testimonial.jpg)
+}
+
+.home-testimonial-student2 {
+	background-position: -12px -370px
+}
+
+.home-testimonial-student3 {
+	background-position: -102px -461px
+}
+
+.home-testimonial-student4 {
+	background-position: 170px -370px
+}
+
+.home-testimonial-tutor1 {
+	background-position: 258px -460px
+}
+
+.home-testimonial-tutor2 {
+	background-position: 79px -551px
+}
+
+.home-testimonial-tutor3 {
+	background-position: 78px -460px
+}
+
+.button-style {
+	width: 245px !important
+}
+
+.refund-style {
+	color: #5c790d;
+	font-weight: 700
+}
+
+.date-time-style {
+	width: 88% !important
+}
+
+@
+@media only screen and (min-width:375x) and (max-width:420px) {
+	.date-time-style {
+		width: 90% !important
+	}
+}
+
+@
+@media only screen and (min-width:320px) and (max-width:360px) {
+	.check-button-style {
+		padding: 5px 9px
+	}
+	.date-time-style {
+		width: 84% !important
+	}
+}
+
+@
+@media only screen and (min-width:1024px) and (max-width:1025px) {
+	.check-button-style {
+		padding: 4px 7px
+	}
+}
+
+.radio-block-fullwidth .form-control div {
+	width: 179px !important
+}
+
+.btn-primary {
+	color: #fff
+}
+
+.btn-primary.active, .btn-primary:active {
+	color: #fff;
+	background-color: #f60 !important;
+	border-color: #f60 !important
+}
+
+.lp-form .input-group-addon {
+	padding: 0 13px !important
+}
+
+.datepicker-style {
+	width: 83px;
+	border: none
+}
+
+.button-style {
+	background-color: #ff7200 !important;
+	border-color: #ff7200 !important;
+	font-family: century gothic;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase
+}
+
+.contact-details-phone {
+	background-position: -25px -52px;
+	width: 15px
+}
+
+.lp-form .btn-lg {
+	font-size: 18px;
+	font-weight: 700
+}
+
+@
+@media only screen and (min-width:320px) and (max-width:359px) {
+	.check-button-style {
+		padding: 6px 5px
+	}
+	.form-horizontal .control-label {
+		width: auto !important;
+		float: none !important
+	}
+	.radio-block-fullwidth .form-control div {
+		width: auto !important;
+		padding: 4px
+	}
+	.radio-block-fullwidth1 .form-control div {
+		width: auto !important;
+		padding: 2px !important
+	}
+	.logo-home-lp {
+		margin-top: -28px
+	}
+	@
+	@media only screen and (max-width:766px) {
+		.logo-home-lp {
+			margin-top: 0
+		}
+	}
+	.crop-action, .imageBox, .input-browse {
+		width: 100% !important
+	}
+	@
+	@media only screen and (max-width:480px) {
+		.home-center-quote, .home-content-list, .home-testimonial-info,
+			.home-user-desc, .home-user-pic, .lp-body .arrow-hand, .step-bar,
+			.win-gift-btn {
+			display: inherit
+		}
+	}
+	@
+	@media only screen and (max-width:991px) {
+		.common-logo-left, .home-content-list p, .msg-content, .msg-user, .muted,
+			.select-home-country-state.common-country-state-ddl {
+			text-align: justify
+		}
+		.home-content-list {
+			margin-bottom: 0
+		}
+	}
+	@
+	@media only screen and (min-width:320px) and (max-width:359px) {
+		.btn-style {
+			padding-left: 50px !important;
+			padding-bottom: 10px
+		}
+	}
+	@
+	@media only screen and (max-width:360px) {
+		.btn-style {
+			padding-left: 70px;
+			padding-bottom: 10px
+		}
+	}
+	.home-content-list p.premium-benefits:before {
+		background:
+			url(https://static.hometutorsite.com/content/images/common-lg/home-tuition-tution-tutor-common-sm.png)
+			-63px -131px no-repeat rgba(0, 0, 0, 0);
+		content: "";
+		margin: 7px 0 0 -25px;
+		height: 16px;
+		position: absolute;
+		vertical-align: middle;
+		width: 18px
+	}
+	p.premium-benefits {
+		color: #212121;
+		font-weight: 700;
+		font-size: 16px;
+		padding-bottom: 13px
+	}
+}
+
+.dib, .hfuo, .label-badge, .ts {
+	display: inline-block
+}
+
+.label-badge {
+	min-width: 17px;
+	padding: 4px 11px;
+	color: #084d75;
+	line-height: 1;
+	vertical-align: baseline;
+	white-space: nowrap;
+	text-align: center
+}
+
+.payment-box-fonts {
+	font-size: 10px
+}
+
+.validity {
+	color: #079011;
+	font-weight: 700;
+	font-size: 16px
+}
+
+.list-style-type {
+	list-style-type: none
+}
+
+.form-control1 {
+	background-color: #f1f1f1;
+	background-image: none;
+	border-radius: 8px;
+	padding: 0 12px;
+	border: none;
+	height: 25px;
+	box-shadow: none
+}
+
+.form-control-bgColor, .hourly-rate {
+	background-color: #fff
+}
+
+.form-group-lp1 {
+	margin-bottom: 0
+}
+
+@
+@media only screen and (max-width:500px) and (min-width:320px) {
+	.form-control-lp {
+		font-size: 11px !important
+	}
+	p.looking-for {
+		font-size: 18px
+	}
+}
+
+@
+@media only screen and (max-width:1024px) {
+	.form-control-lp {
+		font-size: 11px !important
+	}
+}
+
+.hourly-rate {
+	border: 1px solid #ccc
+}
+
+.online-payment-color {
+	color: #616060
+}
+
+.fc-style, .mbcb-style {
+	background-color: #f7f7f7
+}
+
+@
+@media only screen and (max-width:767px) and (min-width:321px) {
+	.mMargin10 {
+		margin-top: 0 !important
+	}
+	.mMargin2 {
+		margin-top: -28px !important
+	}
+	.mMarginText {
+		float: right;
+		margin-right: -45px
+	}
+}
+
+@
+@media only screen and (max-width:320px) {
+	.mMarginText {
+		float: right;
+		margin-right: -12px
+	}
+	.mMargin10 {
+		margin-top: 0 !important
+	}
+	.mMargin2 {
+		margin-top: -28px !important
+	}
+}
+
+@
+@media only screen and (max-width:1024px) and (min-width:900px) {
+	.payment-box-fonts {
+		font-size: 7px
+	}
+}
+
+.check-button-style {
+	padding: 6px 5px !important
+}
+
+.mbcb-style {
+	padding: 10px;
+	border: 1px solid #d5d5d5
+}
+
+.fc-style {
+	padding: 0;
+	border: none
+}
+
+.hfuo {
+	margin-top: 9px
+}
+
+.tsst {
+	padding-bottom: 10px
+}
+
+.htbs {
+	background-color: #fff;
+	padding: 15px;
+	border: 1px solid #d5d5d5
+}
+
+.mbstyle {
+	text-align: justify;
+	margin-bottom: 10px
+}
+
+.listtext-style {
+	font-size: 12px
+}
+
+.moneyguarantee-style {
+	border: 1px solid #fff;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #fff;
+	padding: 3px
+}
+
+.backimagepositions, .backimagepositions1 {
+	color: rgba(100, 100, 100, 0);
+	display: inline-block;
+	border: 1px solid #f1f1f1
+}
+
+.row-padding {
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+.back-image-money {
+	background:
+		url(https://hometuitionsite.s3.amazonaws.com/email-images/paytm1.png)
+		-3px 33px
+}
+
+.backimagepositions {
+	background-position: -3px 33px;
+	padding: 13px 46px
+}
+
+.backimagepositions1 {
+	background-position: 12px -3px;
+	padding: 14px 46px
+}
+
+.payment-box-fonts1 {
+	font-size: 16px;
+	font-weight: 700
+}
+
+.paytextmargin {
+	margin-top: 4px
+}
+
+.dcmarign {
+	margin-bottom: 6px
+}
+
+.get-in-touch1 {
+	margin-top: 0 !important
+}
