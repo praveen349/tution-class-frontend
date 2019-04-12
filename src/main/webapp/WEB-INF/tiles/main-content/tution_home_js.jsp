@@ -24,5 +24,7 @@
 	src="${pageContext.request.contextPath}/resources/tution/js/angular/headerCtrl.js"></script>
 	<script
 	src="${pageContext.request.contextPath}/resources/tution/js/angular/footerCtrl.js"></script>
+	<script
+	src="${pageContext.request.contextPath}/resources/tution/js/angular/loginCtrl.js"></script>
 <script
 	src="${pageContext.request.contextPath}/resources/tution/js/angular/angularMainCtrl.js"></script>

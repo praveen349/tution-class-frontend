@@ -53,7 +53,110 @@
 
 
 
-<form action="/landing/looking-for-home-tutors/" class="form-validation" data-ajax="true" data-ajax-begin="LandingAjaxBegin" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="TrackGoogleAdwordsConversions" data-ajax-update="#rightSideForm" id="landing-page-form" method="post">    <input type="hidden" id="online" name="online" value="false" />
+<form  class="form-validation" ng-show="firstData" ng-submit="submitFirstData()">    <input type="hidden" id="online" name="online" value="false" />
+    <div class="get-in-touch">
+        <div class="form-control-lp">
+            I am a &nbsp;
+            <label class="rad studentStyle">
+                <input type="radio" id="radioStudentLanding" ng-model="userType" ng-change="defineUserType('student')" name="UserTypeLanding" class="radioRegHeader" value="student" checked />
+                <i></i>
+                Student/Parent &nbsp;
+            </label>
+            <label class="rad tutorStyle">
+                <input type="radio" id="radioTutorLanding" ng-model="userType" ng-change="defineUserType('tutor')" name="UserTypeLanding" class="radioRegHeader" value="tutor" />
+                <i></i>
+                Tutor
+            </label>
+        </div>
+        
+    </div>
+        <div class="form-group-lp">
+            <div class="">
+                <div class="input-group margin-bottom-sm">
+                    <span class="input-group-addon">
+                        <span class="common-sprite-opt contact-name"></span>
+
+                    </span>
+                    <input id="Name" name="Name" ng-model="name"class="form-control input-lg  validate[required,custom[onlyLetterSp]]" type="text" placeholder="Name"
+                            data-errormessage-value-missing="Please enter your name.">
+                </div>
+            </div>
+        </div>
+        <div class="form-group-lp">
+            <div class="">
+                <div class="input-group margin-bottom-sm">
+                    <span class="input-group-addon input-mail-block">
+                        <span class="common-sprite-opt contact-details-phone"></span>
+                    </span>
+                    <input type="tel" id="Mobile" name="Mobile" ng-model="mobile" class="form-control lp-phone-number input-lg  validate[required,custom[phone],funcCall[validateIndianMobileNumber]]" placeholder="Mobile Number"
+                            data-errormessage-value-missing="Please enter mobile number.">
+
+                </div>
+                <p class="small text-muted">We don't misuse your phone number </p>
+            </div>
+        </div>
+        <div class="form-group-lp" id="tuition-need-lp">
+            <div class="">
+                <div class="input-group margin-bottom-sm">
+                    <span class="input-group-addon input-pincode-block">
+                        <span class="common-sprite-opt course-icon"></span>
+                    </span>
+                    <input id="Email" name="Email" ng-model="email" class="form-control input-lg validate[custom[email]]" type="email" placeholder="Enter Email"
+                           data-errormessage-value-missing="Please enter your email.">
+                </div>
+                <p class="small text-muted">We don't misuse your email.</p>
+            </div>
+        </div>
+        
+        <div class="form-group-lp" id="tuition-need-lp">
+            <div class="">
+                <div class="input-group margin-bottom-sm">
+                    <span class="input-group-addon input-pincode-block">
+                        <span class="common-sprite-opt course-icon"></span>
+                    </span>
+                    <input id="password" name="password" ng-model="password" class="form-control input-lg validate[custom[email]]" type="password" placeholder="Enter password"
+                           data-errormessage-value-missing="Please enter your password">
+                </div>
+                <p class="small text-muted">We don't misuse your email.</p>
+            </div>
+        </div>
+        <div class="form-group-lp" id="tuition-need-lp">
+            <div class="">
+                <div class="input-group margin-bottom-sm">
+                    <span class="input-group-addon input-pincode-block">
+                        <span class="common-sprite-opt course-icon"></span>
+                    </span>
+                    <input id="Course" name="Course" ng-model="course" class="form-control input-lg  validate[required]" type="text" placeholder="Enter Course"
+                            data-errormessage-value-missing="Please enter course. Eg. Class I CBSE or Class X or B.Tech etc.">
+                </div>
+                <p class="small text-muted">eg. Class I CBSE or Class X or B.Tech etc.</p>
+            </div>
+        </div>
+        <div class="form-group-lp" id="subject-lp">
+            <div class="">
+                <div class="input-group margin-bottom-sm">
+                    <span class="input-group-addon input-pincode-block">
+                        <span class="common-sprite-opt subject-icon"></span>
+                    </span>
+                    <input id="Subject" name="Subject" ng-model="subject"class="form-control input-lg  validate[required]" type="text" placeholder="Enter Subjects"
+                            data-errormessage-value-missing="Please enter subjects. Eg. maths, physics or all subjects etc.">
+                </div>
+                <p class="small text-muted">eg. maths, physics or all subjects etc.</p>
+            </div>
+        </div>
+        <div class="form-group-lp">
+            <div class="">
+                <div id="submitButtonContainer" class="text-center">
+                    <button id="btn-signup-lp" type="submit" class="btn btn-info btn-orange btn-lg">Get Free Demo Class</button>
+                    <img id="imgLoading" style="display:none;" src="https://static.hometutorsite.com/content/images/preloaders/preloader.gif" />                    
+                </div>
+            </div>
+        </div>
+        <p class="text-center small">By signing up you agree to our <a href="/home/termsandconditions">Terms and Conditions</a></p><br />
+        <p class="text-center medium">Already a member? <a href="/account/login">Login</a></p>
+</form>
+
+<form action="/landing/looking-for-home-tutors/" class="form-validation" ng-show="secondData"data-ajax="true" data-ajax-begin="LandingAjaxBegin" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="TrackGoogleAdwordsConversions" data-ajax-update="#rightSideForm" id="landing-page-form" method="post">    <input type="hidden" id="online" name="online" value="false" />
     <div class="get-in-touch">
         <div class="form-control-lp">
             I am a &nbsp;
@@ -143,6 +246,7 @@
         <p class="text-center medium">Already a member? <a href="/account/login">Login</a></p>
 </form>
 
+
                             </div>
                         </div>
                     </div>
@@ -161,19 +265,7 @@
                             </p>
                         </div>
 
-                        <div id="tutors-info-lp" class="text-center">
-                            <h2>Find Students Looking for Home Tutors.</h2>
-                            <img src="https://static.hometutorsite.com/content/images/landing/tutor-reg-steps.jpg" class="img-responsive" />
-
-                            <br />
-                            <div class="text-center"><img src="https://static.hometutorsite.com/content/images/landing/tuition-image.jpg" class="img-responsive" /></div>
-                            <br />
-                            <p class="lp-lead text-center lp-lead1">
-                                You focus on teaching, We focus on finding students for you.
-
-                            </p>
-
-                        </div>
+                        
 
                         <br />
 

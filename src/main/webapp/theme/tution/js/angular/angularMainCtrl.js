@@ -16,4 +16,4 @@ AngularModule()
 //footer module
 AngularModule()
 		.setNewModule('login', [ 'vcRecaptcha' ])
-		.setController('loginCtrl', footerCtrl).bootstrap('loginApp');
+		.setController('loginCtrl', loginCtrl).bootstrap('loginApp');

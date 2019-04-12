@@ -1,7 +1,13 @@
 function loginCtrl($scope, $http, $location, $timeout, $interval, $rootScope, vcRecaptchaService) {
+	
+	$scope.firstData = true;
+	
+	
 	$scope.login = function(value) {
+		
 	var homeLogin = value;
 	$scope.loading = true;
+	$scope.userType = 'student';
 	if ($scope.email != null
 			&& $scope.email != ''
 			) {
@@ -58,35 +64,21 @@ $scope.signUp = function() {
 	$scope.isError = false;
 	$scope.countOtpSent = 0;
 	$scope.successMsg = "";
-	if (/^[a-zA-Z\s]*$/.test($scope.firstName) && $scope.firstName.length <= 25 && $scope.firstName != ''
-			&& $scope.firstName != undefined && $scope.firstName.length >= 3) {
 			
-				if (/^[a-zA-Z\s]*$/.test($scope.lastName) && $scope.lastName.length <= 25 && $scope.lastName != ''
-						&& $scope.firstName.length >= 2) {
-					
-						if ($scope.gameName != null && $scope.gameName != '' && $scope.gameName.length <= 8) {
+				if (/^[a-zA-Z\s]*$/.test($scope.name) && $scope.name.length <= 25 && $scope.name != ''
+						&& $scope.name.length >= 2) {
 							if ($scope.email != null && $scope.email != ''
 								&& (/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/.test($scope.email))) {
-										
 										 if(/^(\+91-|\+91|0)?\d{10}$/.test($scope.mobile)) {
-										 
-											if (/[\@\#\$\%\^\&\*\(\)\_\+\!]/.test($scope.password) && /[a-z0-9]/.test($scope.password)
-													&& /[A-Z]/.test($scope.password) && $scope.password.length >= 6) {
-												if ($scope.gender != null && $scope.gender != '') {
-													if ($scope.age != null && $scope.age != '') {
-														if ($scope.signUpTermsCondition != null && $scope.signUpTermsCondition != '') {
+												if ($scope.course != null && $scope.course != '') {
+													if ($scope.subject != null && $scope.subject != '') {
 														var data = {
-																firstName : $scope.firstName,
-																lastName : $scope.lastName,
+																firstName : $scope.name,
 																email : $scope.email,
 																mobile : $scope.mobile,
-																password : $scope.password,
-																gender : $scope.gender,
-																eligbleAge : $scope.age,
-																gameName : $scope.gameName,
-																referral : $scope.signUpReferral,
-																termAccept : $scope.signUpTermsCondition,
-																affiliateReferral :$scope.affiliateReferral
+																userType : $scope.userType,
+																course : $scope.course,
+																subject : $scope.subject
 														}
 														var responsePromise = $http.post(contextPath + '/player/signup', data);
 														responsePromise.success(function(data) {
@@ -136,11 +128,7 @@ $scope.signUp = function() {
 																$scope.responseError = data.errorDetails;
 															}
 														})
-													} else {
-														$scope.isError = true;
-														$scope.errorMessage = 'Please accept terms and conditions';
-														$scope.loading = false;
-													    }
+													
 													} else {
 														$scope.isError = true;
 														$scope.errorMessage = 'Please verify your age';
@@ -151,11 +139,7 @@ $scope.signUp = function() {
 													$scope.errorMessage = 'Gender is required';
 													$scope.loading = false;
 												}
-											} else {
-												$scope.isError = true;
-												$scope.errorMessage = 'Password is required';
-												$scope.loading = false; 
-											}
+											
 										
 										  } else { $scope.isError = true;
 										  $scope.errorMessage = '';
@@ -166,11 +150,7 @@ $scope.signUp = function() {
 								$scope.errorMessage = 'Email is required';
 								$scope.loading = false;
 							}
-						} else {
-							$scope.isError = true;
-							$scope.errorMessage = 'Game name is required';
-							$scope.loading = false;
-						}
+						
 					
 				} else {
 					$scope.isError = true;
@@ -178,9 +158,23 @@ $scope.signUp = function() {
 					$scope.loading = false;
 				}
 			
-		} else {
-			$scope.isError = true;
-			$scope.errorMessage = 'First name should not be empty';
-			$scope.loading = false;
-		}
-	}}
+		
+	}
+
+
+$scope.defineUserType = function(value) {
+	$scope.userType = value;
+	
+}
+
+$scope.submitFirstData = function() {
+	$scope.name = null;
+	$scope.email = null;
+	$scope.mobile = null;
+	$scope.password= null;
+	$scope.course = null;
+	$scope.subject = null;
+	$scope.firstData = false;
+	$scope.secondData = true;
+}
+}
